@@ -1,0 +1,85 @@
+body{
+    background-image:url("static/background.png");
+}
+nav{
+    text-align:right;
+}
+nav li{
+    display:inline-block;
+    border:1px solid white;
+    padding:1%;
+    background:rgba(0,0,0,0.5);
+    border-radius:10px;
+    
+}
+nav a{
+    text-decoration:none;
+    color:white;
+}
+
+form{
+    margin:7% 30%;
+    line-height:2.5em;
+    border: 0.5px solid black;
+    width:40%;
+    padding:1em;
+    border-radius:10px;
+    background:rgba(0,0,0,0.3);
+}
+form input{
+    border:none;
+    border-radius:3%;
+    padding:1.5%;
+}
+.submitbtn{
+    background:rgba(0,255,0,0.3);
+    border-radius:10%;
+    padding:2% 3%;
+    border:none;
+}
+.resetbtn{
+    background:rgba(255,0,0,0.3);
+    border-radius:10%;
+    padding:2% 3%;
+    border:none;
+    margin-left:2em;
+}
+.products{
+    border:1px solid black;
+    padding:1em;
+}
+.product img{
+    max-width:70%;
+    width:250px;
+    height:150px;
+    float:left;
+}
+.product{
+    border:1px solid black;
+    background:rgba(0,0,0,0.3);
+    padding:1em;
+}
+.product a{
+    text-decoration:none;
+
+}
+#addcomment{
+    width:100%;
+    margin:0;
+    border:none;
+    display:inline-block;
+}
+.comment{
+    display:inline-block;
+
+}
+.comments{
+    padding:1em 2em;
+    color:white;
+    border:none;
+    background:rgba(0,0,0,0.7);
+    border-radius:1em;
+}
+.comments a{
+    color:cyan;
+}
